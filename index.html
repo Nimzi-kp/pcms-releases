@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PCMS Downloads</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 500px;
+      width: 100%;
+      background: #1e293b;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 10px;
+      font-size: 26px;
+    }
+
+    .subtitle {
+      color: #cbd5e1;
+      margin-bottom: 20px;
+      font-size: 14px;
+    }
+
+    .warning {
+      background: #7f1d1d;
+      color: #fecaca;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 25px;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    .btn {
+      display: block;
+      width: 100%;
+      margin: 10px 0;
+      padding: 14px;
+      font-size: 16px;
+      color: white;
+      background: #3b82f6;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #2563eb;
+    }
+
+    .btn.secondary {
+      background: #10b981;
+    }
+
+    .btn.secondary:hover {
+      background: #059669;
+    }
+
+    footer {
+      margin-top: 20px;
+      font-size: 12px;
+      color: #94a3b8;
+    }
+
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 22px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>PCMS Downloads</h1>
+    <p class="subtitle">Secure download portal</p>
+
+    <div class="warning">
+      ⚠️ <strong>Restricted Software Notice</strong><br><br>
+      This software is developed exclusively for authorized clinics.<br>
+      Unauthorized downloading, installation, or usage without proper permission is strictly prohibited and may be illegal.<br><br>
+      If you are not an authorized user, please do not proceed.
+    </div>
+
+    <a
+      href="https://github.com/KP-Script/pcms-releases/releases/latest/download/PCMS-Setup.exe"
+      class="btn"
+    >
+      Download Application
+    </a>
+
+    <a
+      href="https://github.com/KP-Script/pcms-releases/releases/latest/download/backend.zip"
+      class="btn secondary"
+    >
+      Download Server Package
+    </a>
+
+    <footer>
+      © 2026 PCMS. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
