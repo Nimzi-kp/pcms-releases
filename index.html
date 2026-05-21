@@ -49,9 +49,19 @@
       color: #fecaca;
       padding: 15px;
       border-radius: 8px;
-      margin-bottom: 25px;
+      margin-bottom: 20px;
       font-size: 13px;
-      line-height: 1.5;
+      line-height: 1.6;
+    }
+
+    .contact-box {
+      background: #0f766e;
+      color: #ccfbf1;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 25px;
+      font-size: 14px;
+      line-height: 1.6;
     }
 
     .btn {
@@ -79,6 +89,14 @@
       background: #059669;
     }
 
+    .btn.whatsapp {
+      background: #25D366;
+    }
+
+    .btn.whatsapp:hover {
+      background: #1ebe5d;
+    }
+
     footer {
       margin-top: 20px;
       font-size: 12px;
@@ -95,15 +113,32 @@
 
 <body>
   <div class="container">
+    
     <h1>PCMS Downloads</h1>
     <p class="subtitle">Secure download portal</p>
 
     <div class="warning">
       ⚠️ <strong>Restricted Software Notice</strong><br><br>
+
       This software is developed exclusively for authorized clinics.<br>
       Unauthorized downloading, installation, or usage without proper permission is strictly prohibited and may be illegal.<br><br>
+
       If you are not an authorized user, please do not proceed.
     </div>
+
+    <div class="contact-box">
+      Need this software for your clinic?<br><br>
+
+      Please contact the developer through WhatsApp for authorization, setup assistance, and activation support.
+    </div>
+
+    <a
+      href="https://wa.me/919447679866"
+      class="btn whatsapp"
+      target="_blank"
+    >
+      Contact Developer on WhatsApp
+    </a>
 
     <a
       href="https://github.com/KP-Script/pcms-releases/releases/latest/download/PCMS-Setup.exe"
@@ -122,6 +157,7 @@
     <footer>
       © 2026 PCMS. All rights reserved.
     </footer>
+
   </div>
 </body>
 </html>
