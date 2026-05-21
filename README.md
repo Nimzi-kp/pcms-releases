@@ -11,7 +11,7 @@
 
 ## 🚀 Download Latest Version
 
-👉 **[Download PCMS (Latest Version)](https://github.com/KP-Script/pcms-releases/releases/latest/download/PCMS-Setup.exe)**
+👉 **[Download PCMS (Latest Version)](https://download.izmin.in)**
 
 
 
